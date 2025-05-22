@@ -1,3 +1,32 @@
+/*para centrar la imagen de fondo en el body*/
+.background{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.fondo{
+    background-color: #000000;/* color de fondo */
+    opacity: 0.8;/* opacidad del fondo */
+    filter: blur(5px);/* desenfoque del fondo */
+    -webkit-filter: blur(5px); /* desenfoque del fondo */
+    z-index: -1;/* z-index del fondo */
+    position: fixed;/* posicionamiento del fondo */
+    top: 0;/* posicionamiento del fondo */
+    left: 0;/* posicionamiento del fondo */
+    width: 100%;/* ancho del fondo */
+    height: 100%;/* alto del fondo */
+    display: flex;/* flexbox para centrar el fondo */
+    justify-content: center;/* centrar el fondo */
+    align-items: center;/* centrar el fondo */
+    overflow: hidden;/* ocultar el fondo */
+}
+
 header{
     width: 100%;
     height: 80px;
@@ -20,6 +49,7 @@ main{
     align-items: center;
     flex-direction: column;
     height: calc(100vh - 80px);
+    padding: 20px;
 }
 .form{
     display: flex;
@@ -28,8 +58,9 @@ main{
     flex-direction: column;
     width: 300px;
     padding: 15px;
+    border: 8px solid #0c30a5;
     border-radius: 60px;
-    background-color: #669bd1;
+    background-color: #e4e4e4;
 }
 form{
     display: flex;
