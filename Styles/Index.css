@@ -1,0 +1,222 @@
+body{
+    background-color: #fdfdfd;
+}
+
+
+
+header{
+    background-color: #a6e338;/* color de fondo */
+    border-radius: 20px;/* esquinas redondeadas */
+    padding: 20px;/* espacio interno */
+    margin: 10px auto;/* margen superior e inferior */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;/* alinea los elementos a la derecha */
+    width: 90%;/*ancho del header*/
+    max-width: 1200px;/*ancho maximo*/
+    height: auto;/*ajusta la altura del header automaticamente*/
+}
+
+header .title{
+    flex: 1;/*ocupa el espacio restante*/
+}
+
+header .buttons{
+    display: flex;/*flexbox para alinear los botones*/
+    gap: 10px;/*espacio entre los botones*/
+}
+
+h1{
+    color: rgb(3, 3, 3);
+    font-size: 50px;/* tamaño de la fuente */
+    text-align: left;/* alineación del texto */
+    margin: 0;/* margen superior e inferior */
+
+    font-family: "Pirata One", system-ui;/* fuente del texto */
+    font-weight: 300;/* grosor de la fuente */
+    font-style:oblique;/* estilo de la fuente */
+}
+
+.Button{
+    background-color: #726c6d;/* color de fondo */
+    color: rgb(252, 250, 250);/* color del texto */
+    padding: 10px 20px;/* espacio interno */
+    border: none;/* sin borde */
+    border-radius: 10px;/* esquinas redondeadas */
+    cursor: pointer;/* cursor al pasar el mouse */
+    margin-left: 10px;/* espacio a la izquierda */
+    height: 40px;/* altura del botón */
+    font-size: 20px;/* tamaño de la fuente */
+    
+}
+
+.Button2{
+    background-color: #726c6d;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+/* Estilo para el contenedor principal */
+.container{
+    display: flex;/*flexbox para alinear los elementos*/
+    flex-direction: column;/*columna*/
+    align-items: center;/*centrar elementos*/
+    justify-content: center;/*centrar elementos*/
+    height: 300px;/*altura de la pantalla*/
+}
+/*-----------------------------------------------*/
+
+/* Estilo para pantallas grandes (escritorio) */
+@media (min-width: 1024px) {
+    header {
+        width: 90%;
+        height: 80px;
+    }
+
+    .Button, .Button2 {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}
+
+/* Estilo para pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    header, main, footer {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        align-items: center;
+        height: auto;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+
+    .Button, .Button2 {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
+
+/* Estilo para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 30px; /* Reduce el tamaño del título */
+    }
+
+    .Button, .Button2 {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+}
+
+/*------------------------------------------------*/
+main{
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 20px; /* Espacio interno */
+    margin: 10px auto; /* Margen superior e inferior */
+    width: 90%; /* Ancho del contenedor */
+    max-width: 1200px; /* Ancho máximo */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+/* Estilo para el menú de navegación */
+
+nav {
+    background-color: #dbf79f; /* Color de fondo del menú */
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    margin: 20px auto; /* Margen superior e inferior */
+    width: 90%; /* Ancho del menú */
+    max-width: 1200px; /* Ancho máximo */
+    height: 18px;/* Altura del menú */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: center; /* Centra el menú */
+    gap: 20px; /* Espaciado entre los elementos */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    font-size: 18px; /* Tamaño de la fuente */
+    text-decoration: none; /* Elimina el subrayado */
+    color: #000000; /* Color del texto */
+    background-color: #dbf79f;/* color de fondo */
+    padding: 8px 12px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul li a:hover {
+    background-color: #c0f066; /* Cambia el color al pasar el mouse */
+}
+
+.img1{
+    background-color: #f8fee7; /* Color de fondo */
+    border: #a6e338 2px solid;
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-items: flex-end;/* alinea los elementos a la derecha */
+}
+
+img{
+    border-radius: 15px;/* Esquinas redondeadas */
+}
+
+.div1{
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-content: center;/*centrar elementos*/
+    align-items: center;/*centrar elementos*/
+    gap: 20px;/*espacio entre los elementos*/
+    padding: 20px;/*espacio interno*/
+    margin: 10px auto;/*margen superior e inferior*/
+    width: 90%;/*ancho del contenedor*/
+    max-width: 1200px;/*ancho maximo*/
+    height: auto;/*ajusta la altura automaticamente*/
+}
+
+h2{
+    text-align: center;/* alineación del texto */
+}
+p{
+    font-size: 20px;
+}
+
+.img2{
+    background-color: #f7c29e; /* Color de fondo */
+    border: #e27b36 2px solid;
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-items:flex-start;/* alinea los elementos a la izquierda */
+}
+
+/*------------------------------------------------*/
+
+footer{
+    background-color: #507a11;/* color de fondo */
+    color: #ffffff;/* color del texto */
+    border-radius: 20px;/* esquinas redondeadas */
+    padding: 20px;/* espacio interno */
+    margin: 10px auto;/* margen superior e inferior */
+    display: flex;
+    align-items: center;
+    justify-content: center;/* alinea los elementos a la derecha */
+    width: 90%;/*ancho del header*/
+    max-width: 1200px;/*ancho maximo*/
+    height: auto;/*ajusta la altura del header automaticamente*/
+}

@@ -1,0 +1,77 @@
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+h1{
+    font-family: "Pirata One", system-ui;/* fuente del texto */
+    font-size: 40px;/* tamaño de la fuente */
+    font-weight: 300;/* grosor de la fuente */
+    font-style:oblique;/* estilo de la fuente */
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    border: #5980a7 1px solid;
+    border-radius: 20px;
+    padding: 50px;
+    width: 300px;
+    background-color: #727272;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.txt{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.datos{
+    border: rgb(238, 0, 0);
+    border-radius: 15px;
+    background-color: #d4d4d4; 
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.btn{
+    border: 2px;
+    border-radius: 5px;
+    background-color: #5980a7;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
