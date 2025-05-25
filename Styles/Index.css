@@ -5,7 +5,7 @@ body{
 
 
 header{
-    background-color: #a6e338;/* color de fondo */
+    background-color: #e45121;/* color de fondo */
     border-radius: 20px;/* esquinas redondeadas */
     padding: 20px;/* espacio interno */
     margin: 10px auto;/* margen superior e inferior */
@@ -145,7 +145,7 @@ main{
 /* Estilo para el menú de navegación */
 
 nav {
-    background-color: #dbf79f; /* Color de fondo del menú */
+    background-color: #ea7a4d; /* Color de fondo del menú */
     border-radius: 20px; /* Esquinas redondeadas */
     padding: 10px; /* Espacio interno */
     margin: 20px auto; /* Margen superior e inferior */
@@ -167,13 +167,13 @@ nav ul li a {
     font-size: 18px; /* Tamaño de la fuente */
     text-decoration: none; /* Elimina el subrayado */
     color: #000000; /* Color del texto */
-    background-color: #dbf79f;/* color de fondo */
+    background-color: #ea7a4d;/* color de fondo */
     padding: 8px 12px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
 }
 
 nav ul li a:hover {
-    background-color: #c0f066; /* Cambia el color al pasar el mouse */
+    background-color: #e45121; /* Cambia el color al pasar el mouse */
 }
 
 .img1{
@@ -224,7 +224,7 @@ p{
 /*------------------------------------------------*/
 
 footer{
-    background-color: #507a11;/* color de fondo */
+    background-color: #e45121;/* color de fondo */
     color: #ffffff;/* color del texto */
     border-radius: 20px;/* esquinas redondeadas */
     padding: 20px;/* espacio interno */
