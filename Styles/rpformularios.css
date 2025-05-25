@@ -33,7 +33,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #6aaef3;/* color de fondo */
     border-bottom: 1px solid #dee2e6;
 }
 h1{
