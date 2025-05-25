@@ -105,19 +105,31 @@ h1{
 }
 
 /* Estilo para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     header {
         width: 100%;
-        padding: 10px;
+        padding: 20px;
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
     }
 
     h1 {
         font-size: 30px; /* Reduce el tamaño del título */
+        text-align: center; /* Centra el texto */
+        width: 100%; /* Ancho completo */
     }
 
     .Button, .Button2 {
-        font-size: 16px;
-        padding: 6px 12px;
+        font-size: 14px;
+        padding: 4px 8px;
+        width: 100%; /* Botones ocupan el ancho completo */
+        margin-left: 0; /* Elimina el margen izquierdo */
+        margin-top: 8px; /* Añade margen superior */
+    }
+
+    nav ul {
+        flex-direction: column; /* Cambia la dirección de los elementos */
+        gap: 10px; /* Espaciado entre los elementos */
     }
 }
 
@@ -171,6 +183,8 @@ nav ul li a:hover {
     padding: 10px; /* Espacio interno */
     display: flex;/*flexbox para alinear los elementos*/
     justify-items: flex-end;/* alinea los elementos a la derecha */
+    table-layout: fixed;/* tabla fija */
+    width: 100%;/* ancho de la tabla */
 }
 
 img{
@@ -203,6 +217,8 @@ p{
     padding: 10px; /* Espacio interno */
     display: flex;/*flexbox para alinear los elementos*/
     justify-items:flex-start;/* alinea los elementos a la izquierda */
+    table-layout: fixed;/* tabla fija */
+    width: 100%;/* ancho de la tabla */
 }
 
 /*------------------------------------------------*/

@@ -1,14 +1,14 @@
 /*para centrar la imagen de fondo en el body*/
 .background{ 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    background-repeat: no-repeat;/* no repetir la imagen */
+    background-size: cover;/* cubrir toda la pantalla */
+    background-position: center;/* centrar la imagen */
+    position: fixed;/* posicionamiento de la imagen */
+    top: 0;/* posicionamiento de la imagen */
+    left: 0;/* posicionamiento de la imagen */
+    width: 100%;/* ancho de la imagen */
+    height: 100%;/* alto de la imagen */
+    z-index: -1;/* z-index de la imagen */
 }
 .fondo{
     background-color: #000000;/* color de fondo */
@@ -28,13 +28,15 @@
 }
 
 header{
-    width: 100%;
+    width: 100%;/* ancho del header */
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #6aaef3;/* color de fondo */
-    border-bottom: 1px solid #dee2e6;
+    align-items: center;/* centrar el header */
+    position: static;/* posicionamiento del header */
+    background-color: #3391f0;/* color de fondo */
+    border-bottom: 1px solid #c23737;/* borde inferior */
+    border-radius: 10px;/* esquinas redondeadas */
 }
 h1{
     font-family: "Pirata One", system-ui;/* fuente del texto */
@@ -58,9 +60,9 @@ main{
     flex-direction: column;
     width: 300px;
     padding: 15px;
-    border: 8px solid #0c30a5;
-    border-radius: 60px;
-    background-color: #e4e4e4;
+    /*border: 8px solid #0c30a5;*/
+    /*border-radius: 60px;*/
+    /*background-color: #e4e4e4;*/
 }
 form{
     display: flex;
