@@ -59,11 +59,28 @@ header .container{
     align-items: center;/* centra los elementos */
 }
 
+header .title{
+    flex: 1;/* ocupa el espacio restante */
+    font-family: "Pirata One", system-ui;/* fuente del texto */
+    font-weight: 300;/* grosor de la fuente */
+    font-style:oblique;/* estilo de la fuente */
+}
+
 #nav{
+    flex: 1;/* ocupa el espacio restante */
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: row;
+    text-align: center;
     padding-bottom: 25px;/* espacio inferior */
+    padding-top: 25px;/* espacio superior */
+}
+
+#nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 0;
+    margin: 0;
 }
 
 #nav a{
