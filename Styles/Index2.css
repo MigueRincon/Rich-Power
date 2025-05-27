@@ -111,3 +111,37 @@ header .title{
     background-size: cover;/* cubrir todo el contenedor */
     background-position: center center;/* centrar la imagen */
 }
+
+.div1{
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-content: center;/*centrar elementos*/
+    align-items: center;/*centrar elementos*/
+    gap: 20px;/*espacio entre los elementos*/
+    padding: 20px;/*espacio interno*/
+    margin: 10px auto;/*margen superior e inferior*/
+    width: 90%;/*ancho del contenedor*/
+    max-width: 1200px;/*ancho maximo*/
+    height: auto;/*ajusta la altura automaticamente*/
+}
+
+.img1{
+    background-color: #f8fee7; /* Color de fondo */
+    border: #a6e338 2px solid;
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-items: flex-end;/* alinea los elementos a la derecha */
+    table-layout: fixed;/* tabla fija */
+    width: 100%;/* ancho de la tabla */
+}
+
+.img2{
+    background-color: #f7c29e; /* Color de fondo */
+    border: #e27b36 2px solid;
+    border-radius: 20px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno */
+    display: flex;/*flexbox para alinear los elementos*/
+    justify-items:flex-start;/* alinea los elementos a la izquierda */
+    table-layout: fixed;/* tabla fija */
+    width: 100%;/* ancho de la tabla */
+}
