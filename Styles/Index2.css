@@ -12,7 +12,8 @@ body{
 /*tamaño de la fuente*/
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
-h3{font-size: 2em;}
+h3{font-size: 2em;
+    text-align: center;}
 p{font-size: 1.25em;}
 ul{list-style: none;}/* elimina los puntos de la lista */
 li{font-size: 1.25em;
@@ -70,6 +71,7 @@ header .title{
     flex: 1;/* ocupa el espacio restante */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-align: center;
     padding-bottom: 25px;/* espacio inferior */
     padding-top: 25px;/* espacio superior */
@@ -125,10 +127,7 @@ header .title{
 }
 
 .img1{
-    background-color: #f8fee7; /* Color de fondo */
-    border: #a6e338 2px solid;
-    border-radius: 20px; /* Esquinas redondeadas */
-    padding: 10px; /* Espacio interno */
+    padding: 40px; /* Espacio interno */
     display: flex;/*flexbox para alinear los elementos*/
     justify-items: flex-end;/* alinea los elementos a la derecha */
     table-layout: fixed;/* tabla fija */
@@ -136,12 +135,27 @@ header .title{
 }
 
 .img2{
-    background-color: #f7c29e; /* Color de fondo */
-    border: #e27b36 2px solid;
-    border-radius: 20px; /* Esquinas redondeadas */
     padding: 10px; /* Espacio interno */
     display: flex;/*flexbox para alinear los elementos*/
     justify-items:flex-start;/* alinea los elementos a la izquierda */
     table-layout: fixed;/* tabla fija */
     width: 100%;/* ancho de la tabla */
+}
+.jpg{
+    border-radius: 20px;
+}
+
+
+footer{
+    background-color: #eb5a3a;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+footer .container{
+    display: flex;
+    flex-direction:row;/* dirección de los elementos */
+    align-items: center;/* centra los elementos */
+    
 }
